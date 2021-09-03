@@ -23,7 +23,8 @@ Pukelis, Lukas, et al. ‘OSDG -- Open-Source Approach to Classify Text Data by 
 
 ## Usage Examples
 
-TBA.
+Examples of text classification using OSDG-CD can be found under the `examples` directory:
+- `osdg-cd-example-classifier-sklearn.ipynb` ([open in nbviewer](https://nbviewer.jupyter.org/github/osdg-ai/osdg-data/blob/main/examples/osdg-cd-example-classifier-sklearn.ipynb))
 
 ## Share Your Work
 
