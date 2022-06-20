@@ -1,8 +1,15 @@
 ## Dataset Information
 
-The *OSDG Community Dataset (OSDG-CD)* is the direct result of the work of hundreds of volunteers who have contributed to our understanding of [Sustainable Development Goals (SDGs)](https://sdgs.un.org/goals) via the [OSDG Community Platform (OSDG-CP)](https://osdg.ai/community). It contains thousands of text excerpts which were labelled by the community volunteers with respect to SDGs. For each piece of text, the suggested label was also validated by the [OSDG Labelling Tool (OSDG-LT)](https://github.com/osdg-ai/osdg-tool). The data can be used to derive insights into the nature of SDGs using either ontology-based or machine learning approaches. The OSDG-CP dataset will be updated on a quarterly basis.
+| Version | DOI Handle |
+| --- | --- |
+| Most Recent | <a href="https://doi.org/10.5281/zenodo.5550237"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5550237.svg" alt="DOI"></a> |
+| Version 2022.04 | <a href="https://doi.org/10.5281/zenodo.6393942"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6393942.svg" alt="DOI"></a> |
+| Version 2022.01 | <a href="https://doi.org/10.5281/zenodo.5792547"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5792547.svg" alt="DOI"></a> |
+| Version 2021.09 | <a href="https://doi.org/10.5281/zenodo.5550238"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5550238.svg" alt="DOI"></a> |
 
-Please note that the dataset is hosted on Zenodo and can be accessed at https://zenodo.org/record/5550238. This repository is only intended to provide examples of how the dataset can be used in practice.
+The **OSDG Community Dataset (OSDG-CD)** is the direct result of the work of hundreds of volunteers who have contributed to our understanding of [Sustainable Development Goals (SDGs)](https://sdgs.un.org/goals) via the [OSDG Community Platform (OSDG-CP)](https://osdg.ai/community). It contains thousands of text excerpts which were labelled by the community volunteers with respect to SDGs. The data can be used to derive insights into the nature of SDGs using either ontology-based or machine learning approaches. The OSDG Community Dataset will be updated on a quarterly basis.
+
+Please note that all versions of the dataset are hosted on **Zenodo**. This repository is only intended to provide examples of how the dataset can be used in practice. You can access different versions of the dataset using DOI handles above. The **Most Recent** handle **always resolves to the latest version**.
 
 ## Methodology
 
@@ -10,14 +17,15 @@ The OSDG Community Platform is an ambitious attempt to bring together volunteers
 
 ## Documentation
 
-The OSDG-CP dataset is currently provided in a `.csv` format in the `datasets` directory. It is a flat tabular dataset that contains the following columns:
+The OSDG-CD dataset is provided in a `.csv` format on Zenodo. It is a flat tabular dataset that contains the following columns:
 
-- `text_id` - a unique text identifier.
-- `doi` - DOI of the source text to which a given text excerpt belongs.
-- `text` - the excerpt text itself.
-- `sdg` - the suggested SDG label volunteers were asked to consider, i.e. accept/reject.
-- `label_volunteers` - the final label derived from volunteer votes. `accepted` means that all volunteers accepted the suggested label while `rejected` denotes the text excerpts that were rejected by all volunteers. `undecided` means that there was a split vote among the volunteers.
-- `label_osdg` - the indicator of whether or not the suggested SDG label was also among the labels assigned to the text by OSDG-LT. `accepted` is only assigned if the suggested label was assigned by OSDG-LT with *Strong relevance*.
+- `doi` - Digital Object Identifier of the original document;
+- `text_id` - unique text identifier;
+- `text` - text excerpt from the document;
+- `sdg` - the SDG the text is validated against;
+- `labels_negative` - the number of volunteers who rejected the suggested SDG label;
+- `labels_positive` - the number of volunteers who accepted the suggested SDG label;
+- `agreement` - agreement score based on the formula $\text{agreement} = \frac{|labels_{positive} - labels_{negative}|}{labels_{positive} + labels_{negative}}$;
 
 ## Relevant Papers
 
@@ -30,18 +38,18 @@ Examples of text classification using OSDG-CD can be found under the `examples` 
 
 ## Share Your Work
 
-The *OSDG Community Dataset (OSDG-CD)* is made available for research purposes. We are making this data open with the hope to enable researchers to discover new insights into and meaningful connections among Sustainable Development Goals.
+The OSDG Community Dataset (OSDG-CD) is made available for research purposes. We are making the data open with the hope to enable researchers to discover new insights into and meaningful connections among Sustainable Development Goals.
 
-We would like to know what you discover in the data. So do not hesitate to share with us your outputs, be it a research paper, a machine learning model, a blog post, or just an interesting observation. Send us an email at [community@osdg.ai](mailto:community@osdg.ai?subject=OSDG-CP).
+We would like to know what you discover in the data. So do not hesitate to share with us your outputs, be it a research paper, a machine learning model, a blog post, or just an interesting observation. Send us an email at [community@osdg.ai](mailto:community@osdg.ai?subject=OSDG-CD).
 
-If you are using the dataset in a research paper, please cite it as follows: OSDG, UNDP IICPSD SDG AI Lab, & PPMI. (2021). OSDG Community Dataset (OSDG-CD) (2021.09) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5550238.
+If you are using the dataset in a research paper, please cite the original version as follows:
+
+> OSDG, UNDP IICPSD SDG AI Lab, & PPMI. (2021). OSDG Community Dataset (OSDG-CD) (2021.09) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5550238.
+
+To cite a specific version, use the template provided on Zenodo. 
 
 ## Contribute to OSDG
 
 This dataset is made possible because of a large community effort. We would be glad to see your contribution to the project too. You can join our [Community Platform](https://osdg.ai/community) to help us collect more labelled data. If you have a more technical background, you can also contribute to the OSDG Labelling Tool [here](https://github.com/osdg-ai/osdg-tool). If you want to contribute to the project in some other way, do let us know via this [contact form](https://osdg.ai/contact).
 
 To learn more about the OSDG project, visit [osdg.ai](https://osdg.ai/about).
-
-## FAQ
-
-TBA.
