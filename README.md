@@ -2,7 +2,10 @@
 
 | Version | DOI Handle |
 | --- | --- |
-| Most Recent | <a href="https://doi.org/10.5281/zenodo.5550237"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5550237.svg" alt="DOI"></a> |
+| Most Recent | <a href="https://doi.org/10.5281/zenodo.7540165"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7540165.svg" alt="DOI"></a> |
+| Version 2023.01 | <a href="https://doi.org/10.5281/zenodo.7540165"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7540165.svg" alt="DOI"></a> |
+| Version 2022.10 | <a href="https://doi.org/10.5281/zenodo.7136826"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7136826.svg" alt="DOI"></a> |
+| Version 2022.07 | <a href="https://doi.org/10.5281/zenodo.6831287"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6831287.svg" alt="DOI"></a> |
 | Version 2022.04 | <a href="https://doi.org/10.5281/zenodo.6393942"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6393942.svg" alt="DOI"></a> |
 | Version 2022.01 | <a href="https://doi.org/10.5281/zenodo.5792547"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5792547.svg" alt="DOI"></a> |
 | Version 2021.09 | <a href="https://doi.org/10.5281/zenodo.5550238"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5550238.svg" alt="DOI"></a> |
@@ -29,7 +32,9 @@ The OSDG-CD dataset is provided in a `.csv` format on Zenodo. It is a flat tabul
 
 ## Relevant Papers
 
-Pukelis, Lukas, et al. ‘OSDG -- Open-Source Approach to Classify Text Data by UN Sustainable Development Goals (SDGs)’. ArXiv:2005.14569 [Cs], May 2020. arXiv.org, http://arxiv.org/abs/2005.14569.
+Pukelis, L., Bautista-Puig, N., Statulevičiūtė, G., Stančiauskas, V., Dikmener, G., &amp; Akylbekova, D. (2022, November 21). OSDG 2.0: A multilingual tool for classifying text data by UN Sustainable Development Goals (SDGs). arXiv.org. https://doi.org/10.48550/arXiv.2211.11252 
+
+Pukelis, L., Puig, N. B., Skrynik, M., &amp; Stanciauskas, V. (2020, May 29). OSDG -- Open-source approach to classify text data by UN Sustainable Development Goals (sdgs). arXiv.org. https://arxiv.org/abs/2005.14569 
 
 ## Usage Examples
 
