@@ -1,5 +1,9 @@
 ## Dataset Information
 
+The **OSDG Community Dataset (OSDG-CD)** is the direct result of the work of hundreds of volunteers who have contributed to our understanding of [Sustainable Development Goals (SDGs)](https://sdgs.un.org/goals) via the [OSDG Community Platform (OSDG-CP)](https://osdg.ai/community). It contains thousands of text excerpts which were labelled by the community volunteers with respect to SDGs. The data can be used to derive insights into the nature of SDGs using either ontology-based or machine learning approaches. The OSDG Community Dataset will be updated on a quarterly basis.
+
+Please note that all versions of the dataset are hosted on **Zenodo**. This repository is only intended to provide examples of how the dataset can be used in practice. You can access different versions of the dataset using DOI handles above. The **Most Recent** handle **always resolves to the latest version**.
+
 | Version | DOI Handle |
 | --- | --- |
 | Most Recent | <a href="https://doi.org/10.5281/zenodo.7540165"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7540165.svg" alt="DOI"></a> |
@@ -9,10 +13,6 @@
 | Version 2022.04 | <a href="https://doi.org/10.5281/zenodo.6393942"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6393942.svg" alt="DOI"></a> |
 | Version 2022.01 | <a href="https://doi.org/10.5281/zenodo.5792547"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5792547.svg" alt="DOI"></a> |
 | Version 2021.09 | <a href="https://doi.org/10.5281/zenodo.5550238"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5550238.svg" alt="DOI"></a> |
-
-The **OSDG Community Dataset (OSDG-CD)** is the direct result of the work of hundreds of volunteers who have contributed to our understanding of [Sustainable Development Goals (SDGs)](https://sdgs.un.org/goals) via the [OSDG Community Platform (OSDG-CP)](https://osdg.ai/community). It contains thousands of text excerpts which were labelled by the community volunteers with respect to SDGs. The data can be used to derive insights into the nature of SDGs using either ontology-based or machine learning approaches. The OSDG Community Dataset will be updated on a quarterly basis.
-
-Please note that all versions of the dataset are hosted on **Zenodo**. This repository is only intended to provide examples of how the dataset can be used in practice. You can access different versions of the dataset using DOI handles above. The **Most Recent** handle **always resolves to the latest version**.
 
 ## Methodology
 
