@@ -6,7 +6,7 @@ Please note that all versions of the dataset are hosted on **Zenodo**. This repo
 
 | Version | DOI Handle |
 | --- | --- |
-| Most Recent | <a href="https://doi.org/10.5281/zenodo.7540165"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8397907.svg" alt="DOI"></a> |
+| Most Recent | <a href="https://doi.org/10.5281/zenodo.5550237"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5550237.svg" alt="DOI"></a> |
 | Version 2023.10 | <a href="https://doi.org/10.5281/zenodo.7540165"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8397907.svg" alt="DOI"></a> |
 | Version 2023.07 | <a href="https://doi.org/10.5281/zenodo.7540165"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8107038.svg" alt="DOI"></a> |
 | Version 2023.04 | <a href="https://doi.org/10.5281/zenodo.7540165"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7816403.svg" alt="DOI"></a> |
